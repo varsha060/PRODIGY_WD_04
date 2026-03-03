@@ -32,9 +32,8 @@ Personal Portfolio Website
 This project was created to practice front-end development, build a professional online presence, showcase projects and technical skills, and prepare for internships and placement opportunities.
 
 🔗 Live Demo
-
-https://varsha060.github.io/PRODIGY_WD_04/
-
+ https://varsha060.github.io/PRODIGY_WD_04/
+ 
 📬 Contact
 
 LinkedIn: https://www.linkedin.com/in/varsha-h-l-705a41360/
