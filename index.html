@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varsha | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+/* NAVIGATION */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:white;
+    position:fixed;
+    width:100%;
+    top:0;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    z-index:1000;
+}
+
+nav h2{
+    font-weight:600;
+    color:#2563eb;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#1e293b;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#2563eb;
+}
+
+.social-icons a{
+    margin-left:15px;
+    font-size:18px;
+    color:#1e293b;
+}
+
+.social-icons a:hover{
+    color:#2563eb;
+}
+
+/* GENERAL SECTIONS */
+section{
+    padding:100px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:40px;
+    color:#2563eb;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    min-height:100vh;
+    background:#f8fafc;
+}
+
+.hero-img img{
+    width:380px;
+    border-radius:12px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1);
+}
+
+.hero-text{
+    max-width:650px;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#2563eb;
+}
+
+.hero-text p{
+    color:#475569;
+    line-height:1.7;
+    text-align:justify;
+}
+
+/* ALTERNATE LIGHT SHADE */
+.alt-bg{
+    background:#eef2f7;
+}
+
+/* ABOUT */
+.about{
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    text-align:justify;
+    color:#475569;
+}
+
+/* SKILLS */
+.skills{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+.skills ul{
+    margin-bottom:15px;
+}
+
+.skills li{
+    margin-bottom:8px;
+    font-size:15px;
+}
+
+/* PROJECTS */
+.projects-container{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.project-card{
+    background:white;
+    padding:35px 28px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.06);
+    transition:0.3s;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.project-card:hover{
+    transform:translateY(-6px);
+}
+
+.project-card h3{
+    margin-bottom:15px;
+    color:#2563eb;
+    font-size:18px;
+}
+
+.project-card p{
+    color:#475569;
+    line-height:1.8;
+    text-align:left;  
+    font-size:14.5px;
+}
+
+/* CONTACT */
+.contact{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.contact p{
+    margin-bottom:10px;
+    color:#475569;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-img img{
+        width:280px;
+    }
+}
+@media(max-width:1200px){
+    .projects-container{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media(max-width:700px){
+    .projects-container{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Varsha</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="social-icons">
+            <a href="https://www.linkedin.com/in/varsha-h-l-705a41360/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/varsha060" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-img">
+        <img src="WhatsApp Image 2026-03-03 at 2.25.34 PM.jpeg" alt="Varsha">
+    </div>
+
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Varsha</span></h1>
+        <p>
+           <p>
+<p>
+I am an aspiring Web Developer driven by curiosity and a passion for building efficient digital solutions.
+I strive to create clean, responsive, and user-friendly applications while continuously enhancing my technical abilities.
+</p>
+</p>
+        </p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="alt-bg">
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+        I am currently focused on strengthening my development skills through real-world projects and internships. 
+        My primary interest lies in Artificial Intelligence (Basics) and modern web technologies. 
+        I enjoy structured problem-solving and building maintainable, efficient solutions.
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+        <ul>
+            <li><strong>Languages:</strong> C, Java, Python</li>
+        </ul>
+        <ul>
+            <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+        </ul>
+        <ul>
+            <li><strong>Interest:</strong> Artificial Intelligence (Basics)</li>
+        </ul>
+        <ul>
+            <li><strong>Focus:</strong> Projects & Internships</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="alt-bg">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Stopwatch Web Application</h3>
+            <p>
+                A responsive stopwatch application developed using HTML, CSS, and JavaScript with start, pause, reset, and lap functionalities.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Landing Page</h3>
+<p>
+    A modern and responsive landing page designed to deliver a clean user experience with structured sections, smooth layout, and visually appealing design. 
+</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A professional portfolio website showcasing technical skills, projects, and contact details with a clean and structured layout.
+            </p>
+        </div>
+        <div class="project-card">
+    <h3>Tic Tac Toe Game</h3>
+    <p>
+        A browser-based interactive Tic Tac Toe game developed using HTML, CSS, and JavaScript 
+        with dynamic game logic and responsive design.
+    </p>
+</div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact">
+        <p>Email: varshahl060@email.com</p>
+        <p>LinkedIn: www.linkedin.com/in/varsha-h-l-705a41360/</p>
+        <p>GitHub: github.com/varsha060</p>
+    </div>
+</section>
+
+</body>
+</html>
